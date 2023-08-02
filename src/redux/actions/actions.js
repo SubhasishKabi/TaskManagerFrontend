@@ -8,7 +8,8 @@ import {
 } from "../taskSlice";
 import { toggleTab } from "../tabSlice";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://taskmanager-7n0q.onrender.com";
+// const API_URL = "https://localhost:8000";
 
 export const addTask = (data) => async (dispatch) => {
   try {
